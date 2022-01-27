@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Homenaje&display=swap');
+
+*{margin:0;padding:0;}
+
+html,body { width: 100%; height:100%;}
+body
+    {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(49, 47, 47);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: 'Homenaje', serif;
+    margin: 0;
+    padding: 0;    
+    align-items: center;
+    justify-content: center;
+    }
+
+/* Login Part */
+.app
+{
+  min-width: 20%;
+  min-height: 20%; 
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  border-radius: 43px;
+  background: linear-gradient(145deg, #fffeff, #dad5d9);
+  box-shadow:  8px 8px 16px #383838, -8px -8px 16px #505050;
+}
+
+.app form 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+
+.btn
+{
+  margin-bottom: 10px;
+  margin-top: 25px;
+  border-radius: 25px;
+  width: 20%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(50, 100, 192);
+  border: 0px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover{
+  height: 45px;
+  width: 25%;
+  cursor: pointer;
+}
+.box{
+  width: 400px; 
+  height: 300px;
+  background: rgba(47, 54, 64, 0.397);
+  margin: 0 auto;
+  border-radius:12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+.box h3{
+  color: #ecf0f1;
+  margin-left: 10%;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+}
+
+.loginContainer{
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  font-family:inherit;
+  background:#ecf0f1;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%; 
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border: 1px solid #DDDDDD;
+  outline:none;
+  transition: all 0.30s ease-in-out;
+  letter-spacing:0.15em;
+  transition: 0.5s;
+}
+.input:focus{
+  width: 90%;
+  box-shadow: 0 0 5px rgb(50, 100, 192); 
+  border: 1px solid rgb(50, 100, 192);
+}
+
+/* Trombi Part */
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  width: 90%;
+  margin-bottom: auto;
+}
+.post {
+  margin: 10px;
+  height: 240px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
+  background: url("https://c.neh.tw/thumb/f/720/5582720193265664.jpg");
+  box-shadow:  -20px 20px 60px #292727, 20px -20px 60px #292727;
+  transition: 0.5s;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 480px;
+  max-width: 400px;
+}
+.img{
+  border-radius: 50%;
+}
+.post:hover{
+  flex-grow: 2;
+}
+.hide{
+  display: none;
+  transition: 0.5s;
+}
+.post:hover > .hide{
+  display: block;
+  transition: 0.7s;
+}
+.btnx{
+  margin-top: 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Header Part */
+.Header {
+  background-color: rgba(79, 83, 88, 0.397);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+}
+
+.marg_top {
+  margin-top: 10px;
+}
+
+/* Admin */
+.post_admin{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.post_admin a {
+  all: unset;
+  color: wheat;
+  border: 1.5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+

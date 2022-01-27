@@ -1,0 +1,96 @@
+/* smokeSreen at the background of the popUp */
+.smokeScreen
+{ 
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(156, 156, 156);
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creationForm,.creationForm2
+{
+    position:fixed;
+    top:30vh;
+    width: 40vw;
+    margin-left:30vw;
+    height: 40vh;
+    min-height: 350px;
+    background-color:grey;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2vh;
+    border-radius: 5px;
+    
+   
+}
+
+
+.form,.form2{
+    display: flex;
+    flex-direction: column;
+    gap:0.5vh;
+}
+textarea {
+    resize: none;
+  }
+
+.closeButton{
+    z-index: 30;
+    position:fixed;
+    top:5vh;
+    right:5vh;
+}
+
+/* .smokeScreen.active
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CookiePopUp*/
+
+/* .creationForm
+{
+    position:fixed;
+    top:30vh;
+    width: 80vw;
+    margin-left:10vw;
+    height: 40vh;
+    background-color:rosybrown;
+    z-index: 9;
+    display: none;
+   
+}
+.NewPostPopUp.active
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2vh;
+}
+.unsetCookie
+{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 1;
+    display: none;
+    
+}
+.unsetCookie.active 
+{
+    display:block
+} */

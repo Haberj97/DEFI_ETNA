@@ -1,0 +1,82 @@
+/* .container {
+    width: 100%;
+    height: 110vh;
+} */
+:root {
+    --white:#b0b3b8;
+    --darkgray: #242526;
+    --grey: #3A3B3C;
+}
+#nav1 {
+
+}
+#nav1 .drop-btn {
+    text-align: center;
+    width: 250px;
+    background: var(--darkgray);
+    color: var(--white);
+    line-height: 40px;
+    padding: 0 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+
+#nav1 .wrapper {
+    top: 45px;
+    position: absolute;
+    height: 200px;
+    display: flex;
+    width: 250px;
+    background:  var(--darkgray);
+    border-radius: 5px;
+    display: none;
+}
+#nav1 .wrapper.show {
+    display: block;
+    display: flex;
+}
+#nav1 .wrapper ul {
+    list-style: none;
+    width: 300px;
+    padding: 10px;
+}
+#nav1 .wrapper ul li{
+    line-height: 50px;
+}
+#nav1 .wrapper ul li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#nav1 .wrapper ul li:hover a {
+    background: var(--grey);
+}
+
+.wrapper ul li a .icon {
+    height: 35px;
+    width: 40px;
+    margin-right: 13px;
+    background: #ffffff1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.wrapper ul li a i {
+    position: absolute;
+    right: 5px;
+    font-size: 25px;
+    pointer-events: none;
+}
